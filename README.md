@@ -14,7 +14,7 @@ Deep learning classification of weapons in X-ray / thermal baggage images, with 
 
 This project builds a transfer-learning classifier on a frozen **ResNet50** (ImageNet weights) to recognise threat objects such as blades, shurikens and guns in X-ray baggage images. **Grad-CAM** is then applied to the last convolutional block so each prediction can be inspected visually, which is the explainable-AI part of the project.
 
-![Sample image](images/sample-image.png)
+![Sample image](sample-image.png)
 
 ## ✨ Key Features
 
