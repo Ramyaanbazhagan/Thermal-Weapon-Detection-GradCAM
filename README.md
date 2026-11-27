@@ -36,7 +36,7 @@ This project builds a transfer-learning classifier on a frozen **ResNet50** (Ima
 
 Class names used in the code: Blade, Shuriken, Gun, Others.
 
-![Dataset samples](images/dataset-samples.png)
+![Dataset samples](dataset-samples.png)
 
 ## 🧠 Model
 
@@ -59,7 +59,7 @@ Training log from the final run:
 | 5 | 0.5679 | 0.4872 | 0.9046 | 0.9956 |
 | 10 | 0.6477 | 0.5282 | 0.7932 | 0.9438 |
 
-![Accuracy plot](images/accuracy-plot.png)
+![Accuracy plot](accuracy-plot.png)
 
 Training accuracy and loss improved steadily. Validation accuracy ended at about 53%, well below training accuracy, so this model is a **baseline** that needs further work (see below).
 
@@ -67,11 +67,11 @@ Training accuracy and loss improved steadily. Validation accuracy ended at about
 
 The top row shows the input images with the predicted class and confidence. The bottom row shows the Grad-CAM heatmaps, where warmer colours mark the regions that most influenced the prediction.
 
-![Grad-CAM results](images/gradcam-results.png)
+![Grad-CAM results](gradcam-results.png)
 
 Sample predictions on test images: all five were classified as **Blade**, with confidence between 43% and 44%.
 
-![Prediction](images/prediction.png)
+![Prediction](prediction.png)
 
 ## ⚠️ Limitations and Next Steps
 
@@ -107,6 +107,4 @@ Thermal-Weapon-Detection-GradCAM/
 └── images/
 ```
 
-## 👩‍💻 Author
-
-**A.K. Ramya** · [LinkedIn](https://linkedin.com/in/ramya-anbu) · [Portfolio](https://ramyaanbazhagan.github.io/portfolio/)
+[LinkedIn](https://linkedin.com/in/ramya-anbu) · [Portfolio](https://ramyaanbazhagan.github.io/portfolio/)
